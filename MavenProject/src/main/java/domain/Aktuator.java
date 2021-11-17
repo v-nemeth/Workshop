@@ -6,6 +6,7 @@ public class Aktuator extends Enhed {
     private String placering = null;
 
 public Aktuator(String navn, String placering) {
+    this.placering = placering;
     super(navn);
     }
 
