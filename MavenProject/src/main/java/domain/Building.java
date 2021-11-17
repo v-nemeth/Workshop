@@ -51,11 +51,16 @@ public class Building {
     }
 
     public void showSensorList(Building building){
-        System.out.println(Arrays.toString(building.sensorer));
+        for (Sensor sensor: sensorer) {
+            System.out.println(sensor);
+        }
     }
 
     public void showAktuatorList(Building building){
-        System.out.println(Arrays.toString(building.aktuatorer));
+        for (Aktuator aktuator:aktuatorer) {
+            System.out.println(aktuator);
+        }
+
     }
 
 
