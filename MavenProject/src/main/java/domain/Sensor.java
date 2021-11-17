@@ -5,7 +5,7 @@ public class Sensor extends Enhed{
     private String type = null;
     private String placering = null;
 
-public Sensor(String navn, String placering){
+public Sensor(String navn, String placering, String type){
 super(navn);
 }
 
