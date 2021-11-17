@@ -3,10 +3,13 @@ package domain;
 import java.util.UUID;
 
 public class Enhed {
-    UUID id = UUID.randomUUID();
+    UUID id;
     String navn;
-    
-    public Enhed(){}
+
+    public Enhed(String navn){
+        this.navn = navn;
+        id = UUID.randomUUID();
+    }
 
     @Override
     public String toString(){return "Navn: "+navn;}
