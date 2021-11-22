@@ -7,6 +7,7 @@ public class Sensor extends Enhed{
 
 public Sensor(String navn, String placering, String type){
 super(navn);
+this.placering = placering;
 }
 
     public double getMålVærdi() {
